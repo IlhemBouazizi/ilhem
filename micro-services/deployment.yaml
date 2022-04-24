@@ -71,7 +71,7 @@ metadata:
     app: ecsdemo-nodejs
   namespace: argocd
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: ecsdemo-nodejs
